@@ -12,13 +12,13 @@ export const Footer: React.FC = () => {
     },
     {
       name: 'Instagram',
-      href: 'https://www.instagram.com/tradorb',
+      href: 'https://www.instagram.com/tradorb_official',
       icon: Instagram,
       label: 'Follow TradORB on Instagram',
     },
     {
       name: 'Facebook',
-      href: 'https://www.facebook.com/tradorb',
+      href: 'https://www.facebook.com/people/Tradorb/61594563591054/',
       icon: Facebook,
       label: 'Follow TradORB on Facebook',
     },
