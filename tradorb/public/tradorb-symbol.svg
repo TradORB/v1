@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <!-- Sphere Gradients matching the TradORB brand asset -->
+    <linearGradient id="symOrangeGrad" x1="15%" y1="70%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#0F6AD7" stop-opacity="0.1" />
+      <stop offset="35%" stop-color="#E65100" />
+      <stop offset="70%" stop-color="#F36F21" />
+      <stop offset="100%" stop-color="#FFA726" />
+    </linearGradient>
+
+    <linearGradient id="symBlueGrad" x1="10%" y1="80%" x2="90%" y2="20%">
+      <stop offset="0%" stop-color="#071A36" />
+      <stop offset="30%" stop-color="#0A2D64" />
+      <stop offset="65%" stop-color="#0F6AD7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="symNavyGrad" x1="20%" y1="90%" x2="80%" y2="30%">
+      <stop offset="0%" stop-color="#051329" />
+      <stop offset="45%" stop-color="#0A2248" />
+      <stop offset="85%" stop-color="#0E5BB8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <linearGradient id="symHighlightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#FFFFFF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, 10)">
+    <!-- Base / Back depth shadows -->
+    <path
+      d="M 50,150 C 35,115 45,75 75,45 C 110,15 165,15 210,40 C 240,60 255,90 255,120 C 255,100 240,65 200,45 C 150,20 95,28 65,60 C 40,88 35,125 50,150 Z"
+      fill="url(#symOrangeGrad)"
+    />
+
+    <!-- Lower hemisphere dark navy band -->
+    <path
+      d="M 45,150 C 55,200 95,240 150,255 C 205,255 245,215 255,160 C 240,195 200,235 150,235 C 100,235 60,195 45,150 Z"
+      fill="url(#symNavyGrad)"
+    />
+
+    <!-- Upper solar sweeping ribbon -->
+    <path
+      d="M 75,55 C 120,20 185,25 230,65 C 248,82 256,105 252,130 C 242,100 220,75 180,60 C 135,42 92,52 75,55 Z"
+      fill="url(#symOrangeGrad)"
+    />
+
+    <!-- Primary helical diagonal ribbon (Navy to Electric Blue) -->
+    <path
+      d="M 46,145 C 48,110 70,80 102,62 C 125,50 145,55 130,75 C 110,100 85,125 75,155 C 65,185 78,215 110,232 C 145,248 190,238 225,205 C 245,185 255,155 252,130 C 258,155 250,185 228,210 C 190,248 135,255 90,232 C 55,210 42,180 46,145 Z"
+      fill="url(#symBlueGrad)"
+    />
+
+    <!-- Secondary inner spiral contour ribbon -->
+    <path
+      d="M 70,110 C 95,85 135,72 175,80 C 215,88 245,115 250,150 C 245,125 218,102 180,95 C 142,88 102,98 70,110 Z"
+      fill="url(#symBlueGrad)"
+      opacity="0.9"
+    />
+
+    <!-- Transverse ascending ribbon loop -->
+    <path
+      d="M 68,170 C 82,145 110,120 155,100 C 200,80 238,82 252,110 C 245,95 210,88 165,105 C 120,122 88,150 68,170 Z"
+      fill="url(#symOrangeGrad)"
+      opacity="0.85"
+    />
+
+    <!-- Glossy edge specular highlight -->
+    <path
+      d="M 102,65 C 140,48 185,55 225,85 C 210,70 165,58 120,68 C 105,72 90,80 82,90 C 86,80 94,70 102,65 Z"
+      fill="url(#symHighlightGrad)"
+    />
+  </g>
+</svg>

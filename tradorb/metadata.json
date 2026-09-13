@@ -1,0 +1,6 @@
+{
+  "name": "TradORB",
+  "description": "TradORB is building the infrastructure connecting Indian manufacturers with buyers, markets and opportunities across India and beyond.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
