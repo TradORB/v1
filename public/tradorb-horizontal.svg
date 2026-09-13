@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="hOrangeGrad" x1="15%" y1="70%" x2="85%" y2="15%">
+      <stop offset="0%" stop-color="#0F6AD7" stop-opacity="0.1" />
+      <stop offset="35%" stop-color="#E65100" />
+      <stop offset="70%" stop-color="#F36F21" />
+      <stop offset="100%" stop-color="#FFA726" />
+    </linearGradient>
+
+    <linearGradient id="hBlueGrad" x1="10%" y1="80%" x2="90%" y2="20%">
+      <stop offset="0%" stop-color="#071A36" />
+      <stop offset="30%" stop-color="#0A2D64" />
+      <stop offset="65%" stop-color="#0F6AD7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+
+    <linearGradient id="hNavyGrad" x1="20%" y1="90%" x2="80%" y2="30%">
+      <stop offset="0%" stop-color="#051329" />
+      <stop offset="45%" stop-color="#0A2248" />
+      <stop offset="85%" stop-color="#0E5BB8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+
+    <radialGradient id="hDotOrangeGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FFB74D" />
+      <stop offset="40%" stop-color="#F36F21" />
+      <stop offset="90%" stop-color="#D84315" />
+      <stop offset="100%" stop-color="#BF360C" />
+    </radialGradient>
+  </defs>
+
+  <!-- Left: 3D Orb Symbol (scaled) -->
+  <g transform="translate(6, 6) scale(0.28)">
+    <path
+      d="M 50,150 C 35,115 45,75 75,45 C 110,15 165,15 210,40 C 240,60 255,90 255,120 C 255,100 240,65 200,45 C 150,20 95,28 65,60 C 40,88 35,125 50,150 Z"
+      fill="url(#hOrangeGrad)"
+    />
+    <path
+      d="M 45,150 C 55,200 95,240 150,255 C 205,255 245,215 255,160 C 240,195 200,235 150,235 C 100,235 60,195 45,150 Z"
+      fill="url(#hNavyGrad)"
+    />
+    <path
+      d="M 75,55 C 120,20 185,25 230,65 C 248,82 256,105 252,130 C 242,100 220,75 180,60 C 135,42 92,52 75,55 Z"
+      fill="url(#hOrangeGrad)"
+    />
+    <path
+      d="M 46,145 C 48,110 70,80 102,62 C 125,50 145,55 130,75 C 110,100 85,125 75,155 C 65,185 78,215 110,232 C 145,248 190,238 225,205 C 245,185 255,155 252,130 C 258,155 250,185 228,210 C 190,248 135,255 90,232 C 55,210 42,180 46,145 Z"
+      fill="url(#hBlueGrad)"
+    />
+    <path
+      d="M 70,110 C 95,85 135,72 175,80 C 215,88 245,115 250,150 C 245,125 218,102 180,95 C 142,88 102,98 70,110 Z"
+      fill="url(#hBlueGrad)"
+      opacity="0.9"
+    />
+    <path
+      d="M 68,170 C 82,145 110,120 155,100 C 200,80 238,82 252,110 C 245,95 210,88 165,105 C 120,122 88,150 68,170 Z"
+      fill="url(#hOrangeGrad)"
+      opacity="0.85"
+    />
+  </g>
+
+  <!-- Right: Wordmark & Tagline -->
+  <g transform="translate(100, 10)">
+    <!-- TradORB Wordmark -->
+    <g fill="#0A1C38" transform="translate(0, 38)">
+      <!-- 'T' -->
+      <path d="M 0,-34 L 38,-34 L 38,-25 L 23,-25 L 23,12 L 15,12 L 15,-25 L 0,-25 Z" />
+      <!-- 'r' -->
+      <path d="M 44,-20 L 52,-20 L 52,-15 C 55,-19 59,-21 64,-21 C 65,-21 67,-21 68,-20 L 67,-12 C 65,-13 64,-13 62,-13 C 57,-13 52,-9 52,-3 L 52,12 L 44,12 Z" />
+      <!-- 'a' -->
+      <path d="M 88,-20 L 96,-20 L 96,12 L 88,12 L 88,8 C 85,11 80,13 75,13 C 67,13 60,6 60,-4 C 60,-14 67,-21 76,-21 C 81,-21 85,-19 88,-16 Z M 88,-8 C 88,-11 85,-14 81,-14 C 75,-14 69,-9 69,-3 C 69,3 74,7 80,7 C 84,7 88,4 88,0 Z" />
+      <!-- 'd' -->
+      <path d="M 123,-34 L 131,-34 L 131,12 L 123,12 L 123,8 C 120,11 115,13 110,13 C 101,13 94,6 94,-4 C 94,-14 101,-21 110,-21 C 115,-21 119,-19 123,-16 Z M 123,-8 C 123,-11 120,-14 116,-14 C 110,-14 103,-9 103,-3 C 103,3 109,7 115,7 C 119,7 123,4 123,0 Z" />
+
+      <!-- 'O' with Orange Orbit Dot -->
+      <g transform="translate(136, -34)">
+        <path
+          d="M 24,0 C 11,0 0,10 0,23 C 0,36 11,46 24,46 C 37,46 48,36 48,23 C 48,10 37,0 24,0 Z M 24,9 C 32,9 38,15 38,23 C 38,31 32,37 24,37 C 16,37 10,31 10,23 C 10,15 16,9 24,9 Z"
+          fill="#0A1C38"
+        />
+        <circle cx="32" cy="15" r="5.5" fill="url(#hDotOrangeGrad)" />
+      </g>
+
+      <!-- 'R' -->
+      <path
+        d="M 192,-34 L 213,-34 C 221,-34 228,-29 228,-20 C 228,-14 224,-9 218,-7 L 230,12 L 220,12 L 209,-6 L 201,-6 L 201,12 L 192,12 Z M 201,-14 L 211,-14 C 216,-14 219,-16 219,-20 C 219,-24 216,-26 211,-26 L 201,-26 Z"
+      />
+
+      <!-- 'B' -->
+      <path
+        d="M 235,-34 L 255,-34 C 262,-34 268,-30 268,-23 C 268,-18 265,-15 260,-13 C 266,-12 270,-7 270,0 C 270,8 263,12 254,12 L 235,12 Z M 244,-26 L 244,-16 L 253,-16 C 256,-16 259,-18 259,-21 C 259,-24 256,-26 253,-26 Z M 244,-8 L 244,4 L 254,4 C 257,4 261,1 261,-2 C 261,-5 257,-8 254,-8 Z"
+      />
+    </g>
+
+    <!-- Tagline -->
+    <text
+      x="0"
+      y="66"
+      font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif"
+      font-size="9"
+      font-weight="600"
+      letter-spacing="0.25em"
+      fill="#64748B"
+    >THE WORLD TRADES TOGETHER</text>
+  </g>
+</svg>
